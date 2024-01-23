@@ -29,6 +29,17 @@
     .manrope{
         font-family: "Manrope";
     }
+    .text{
+       color: #131318;
+       text-align: center;
+       font-size: 36px;
+       font-weight: 800;
+    }
+  .text-light-gray{
+     color: rgba(19, 19, 24, 0.60);
+     text-align: center;
+     font-weight: 500; 
+  }
 </style>
 </head>
 <body class="manrope">
@@ -95,22 +106,47 @@
     </div>
   </div>
 </div>
-<div class="lg:hidden ml-10 mt-5 w-96 right-8 bottom-8 bg-black text-white p-8 rounded-lg">
-  <h4 class="font-extrabold pb-4">Meet all the heroes from the field</h4>
-  <p class="text-[#FFFFFF99] font-medium">Hockey is a term used to denote a family of various types of both summer and winter team sports</p>
+<div class=" container mx-auto mt-8">
+  <div class="lg:hidden bg-black text-white p-8 rounded-lg">
+    <h4 class="font-extrabold pb-4">Meet all the heroes from the field</h4>
+    <p class="text-[#FFFFFF99] font-medium">Hockey is a term used to denote a family of various types of both summer and winter team sports</p>
+  </div>
 </div>
       </section>
     </header>
     <main>
+      <!-- Professional hockey club -->
       <section class="container mx-auto mt-24">
         <div class="">
-          <h1>Professional Hockeys Club</h1>
-        <p>Hockey is an outdoor game played between two teams of 11 players who use long curved sticks to hit a small ball and try to score goals</p>
+          <h1 class="text mb-6">Professional Hockeys Club</h1>
+        <p class="text-light-gray">Hockey is an outdoor game played between two teams of 11 players who use long curved <br> sticks to hit a small ball and try to score goals</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 text-center gap-8">
+          <div class="">
+            <div class="radial-progress text-[#FF4240] rotate-180 p-10" style="--value:87;" role="progressbar"><span class="text-black rotate-180 text-3xl font-extrabold">87%</span></div>
+            <h4 class="text-[#131318] text-2xl font-semibold mt-6">Player Facility</h4>
+            <p class="text-[#1313131866] mt-4">A player in a sport or game is a person who takes part, either as a job or for fun.</p>
+          </div>
+          <div class="">
+            <div class="radial-progress text-success rotate-180 p-10" style="--value:95;" role="progressbar"><span class="text-black rotate-180 text-3xl font-extrabold">95%</span></div>
+            <h4 class="text-[#131318] text-2xl font-semibold mt-6">Experienced Coach</h4>
+            <p class="text-[#1313131866] mt-4">A player in a sport or game is a person who takes part, either as a job or for fun.</p>
+          </div>
+          <div class="">
+            <div class="radial-progress text-warning rotate-180 p-10" style="--value:90;" role="progressbar"><span class="text-black rotate-180 text-3xl font-extrabold">90%</span></div>
+            <h4 class="text-[#131318] text-2xl font-semibold mt-6">Senior Player</h4>
+            <p class="text-[#1313131866] mt-4">A player in a sport or game is a person who takes part, either as a job or for fun.</p>
+          </div>
+          <div class="">
+            <div class="radial-progress text-info rotate-180 p-10" style="--value:80;" role="progressbar"><span class="text-black rotate-180 text-3xl font-extrabold">80%</span></div>
+            <h4 class="text-[#131318] text-2xl font-semibold mt-6">Training Ground</h4>
+            <p class="text-[#1313131866] mt-4">A player in a sport or game is a person who takes part, either as a job or for fun.</p>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-
+      
     </footer>
 </body>
 </html>
