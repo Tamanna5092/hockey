@@ -11,6 +11,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/af53811214.js" crossorigin="anonymous"></script>
 <!-- Tailwind custom color -->
 <script>
     tailwind.config = {
@@ -25,13 +27,44 @@
   </script>
 <style>
     .manrope{
-        font-family: "Manrope", sans-serif;
+        font-family: "Manrope";
     }
 </style>
 </head>
 <body class="manrope">
-    <header>
-
+    <header class="container mx-auto">
+        <section>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl text-[#131318] font-extrabold">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-[#424742] font-bold">
+                    <li><a><span class="text-[#FF4240]">Home</span></a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <a><i class="fa-solid fa-magnifying-glass mr-6"></i></a>
+                  <a class="btn text-white bg-[#FF4240] rounded-lg px-6 py-4">Get Ticket</a>
+                </div>
+              </div>
+        </section>
     </header>
     <main>
 
